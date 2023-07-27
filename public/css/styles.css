@@ -1,0 +1,47 @@
+h1{
+    color: darkolivegreen;
+    font-size: 64px;
+}
+
+
+body {
+    color: #333333;
+    font-family: arial;
+    margin: 0 16px;
+    padding: 16px 200px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+input {
+    background: #0000;
+    margin: 16px 0;
+    padding: 10px;
+}
+
+button {
+    background: #0000;
+    margin: 1px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+header a {
+    color: #333333;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+footer {
+    color: #888888;
+    padding: 0 0;
+    margin: 16px 0;
+    border-top: 1px solid #eeeeee;
+}
